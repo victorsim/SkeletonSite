@@ -2,7 +2,6 @@ var a_list = [ "hey", "Think Differently", "Expect Less", "Ask More" ];
 var index = 0;
 
 function hey() {
-  $("#heythere").html("Hello World!");
   var message = a_list[index];
   $("#heythere").html(message);
   index = index + 1;
